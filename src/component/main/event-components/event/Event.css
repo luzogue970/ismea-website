@@ -1,0 +1,36 @@
+.event-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 20%;
+    border-radius: 15px;
+    transition: ease-in-out 250ms;
+    margin: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    color: black;
+}
+.event-item .event-image {
+    height: 150px;
+    border-radius: 10px;
+}
+.event-item:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+    /*background-color: var(--main-color);*/
+    /*transform: translateY(-10px);*/
+    cursor: pointer;
+    color: white;
+}
+.event-item .event-title{
+    font-size: 1.2rem;
+}
+.event-item .event-localisation {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.event-item .event-date {
+    font-size: 0.9rem;
+    color: grey;
+}

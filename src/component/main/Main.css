@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    background-image: url('../../asset/isema-coffe-banner.jpeg');
+    background-size: contain ;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    /*height: min-content;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.presentation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70); /* Couleur noire avec opacité à 50% */
+    pointer-events: none; /* Pour permettre de cliquer à travers la couche */
+}
+
+
+.main .presentation p{
+    position: relative;
+    font-size: clamp(1rem, 2vw + 1rem, 4rem);
+    text-align: center;
+    color: black;
+    margin: 20%;
+}

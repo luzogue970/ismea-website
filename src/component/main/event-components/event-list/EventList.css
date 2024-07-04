@@ -1,0 +1,14 @@
+.event-list-container {
+    margin: 50px 10%;
+}
+.event-list-container p {
+    text-align: center;
+    font-size: 2rem;
+}
+.event-list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
