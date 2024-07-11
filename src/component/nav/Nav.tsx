@@ -13,7 +13,7 @@ class Nav extends Component {
                         <ul className="nav-items">
                             <li className="nav-item">
                                 <a className={"nav-link"} href="/public">
-                                    Accueil
+                                    Accueill
                                 </a>
                             </li>
                             <li className="nav-item">
