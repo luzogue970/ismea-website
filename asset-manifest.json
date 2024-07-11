@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ismea-website/static/css/main.b342826b.css",
-    "main.js": "/ismea-website/static/js/main.fa38b15d.js",
+    "main.js": "/ismea-website/static/js/main.73747eea.js",
     "static/js/453.d313e23f.chunk.js": "/ismea-website/static/js/453.d313e23f.chunk.js",
     "static/media/isema-coffe-banner.jpeg": "/ismea-website/static/media/isema-coffe-banner.6b4c8534e7cca6fe8d03.jpeg",
     "static/media/ismea-red-logo-bg-removed.png": "/ismea-website/static/media/ismea-red-logo-bg-removed.7545a0fce89e61efd96c.png",
     "index.html": "/ismea-website/index.html",
     "main.b342826b.css.map": "/ismea-website/static/css/main.b342826b.css.map",
-    "main.fa38b15d.js.map": "/ismea-website/static/js/main.fa38b15d.js.map",
+    "main.73747eea.js.map": "/ismea-website/static/js/main.73747eea.js.map",
     "453.d313e23f.chunk.js.map": "/ismea-website/static/js/453.d313e23f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b342826b.css",
-    "static/js/main.fa38b15d.js"
+    "static/js/main.73747eea.js"
   ]
 }
