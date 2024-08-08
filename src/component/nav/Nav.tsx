@@ -12,20 +12,20 @@ class Nav extends Component {
                     <div className="content">
                         <ul className="nav-items">
                             <li className="nav-item">
-                                <a className={"nav-link"} href="/public">
-                                    Accueill
+                                <a className={"nav-link"} href="/ismea-website/">
+                                    Accueil
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={"nav-link"} href="/public">
+                                <a className={"nav-link"} href="/ismea-website/">
                                     L'Institut
                                 <FontAwesomeIcon icon={faAngleDown} className="nav-link-icon"/>
                                 </a>
                                 <div className="dropdown-container">
                                     <ul className="dropdown">
-                                        <li className="dropdown-item"><a href="/">Histoire</a></li>
-                                        <li className="dropdown-item"><a href="/">Administration</a></li>
-                                        <li className="dropdown-item"><a href="/">Fondation FP</a></li>
+                                        <li className="dropdown-item"><a href="/ismea-website/">Histoire</a></li>
+                                        <li className="dropdown-item"><a href="/ismea-website/">Administration</a></li>
+                                        <li className="dropdown-item"><a href="/ismea-website/">Fondation FP</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -35,19 +35,19 @@ class Nav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={"nav-link"} href="/public">
+                                <a className={"nav-link"} href="/ismea-website/">
                                 Les Revues
                                 <FontAwesomeIcon icon={faAngleDown} className="nav-link-icon"/>
                                 </a>
                                 <div className="dropdown-container">
                                     <ul className="dropdown">
-                                        <li className="dropdown-item"><a href="/">économie appliquée</a></li>
-                                        <li className="dropdown-item"><a href="/">économies et sociétés</a></li>
+                                        <li className="dropdown-item"><a href="/ismea-website/">économie appliquée</a></li>
+                                        <li className="dropdown-item"><a href="/ismea-website/">économies et sociétés</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <a className={"nav-link"} href="/public">
+                                <a className={"nav-link"} href="/ismea-website/">
                                     Activités
                                 </a>
                             </li>
